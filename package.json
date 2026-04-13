@@ -1,0 +1,27 @@
+{
+  "name": "hng14-backend-stage-0",
+  "version": "0.0.1",
+  "description": "Stage 0 (Backend) API Integration & Data Processing Assessment",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "echo \"Success\"",
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekojoecovenant/hng14-backend-stage-0.git"
+  },
+  "author": "ekojoecovenant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ekojoecovenant/hng14-backend-stage-0/issues"
+  },
+  "homepage": "https://github.com/Ekojoecovenant/hng14-backend-stage-0#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}

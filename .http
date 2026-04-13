@@ -1,0 +1,12 @@
+###
+GET http://localhost:5000/api/classify?name=3
+###
+GET http://localhost:5000/api/classify?name=cdsalknfdpaosdnkfasndf
+###
+GET http://localhost:5000/api/classify?name=tester
+###
+GET http://localhost:5000/api/classify?name=sad3
+###
+GET http://localhost:5000/api/classify?name=
+###
+GET http://localhost:5000/api/classify
